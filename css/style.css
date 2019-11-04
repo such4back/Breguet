@@ -81,8 +81,8 @@ a { text-decoration: none; color: #fff; }
     top: 30px; left: 120px;
     width: 100px;
     animation-name: clock;
-    animation-duration: 6s;
-    animation-delay: 2s;
+    animation-duration: 4s;
+    animation-delay: 1.2s;
     animation-iteration-count: 1;
 }
 

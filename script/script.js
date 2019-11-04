@@ -15,7 +15,7 @@ $(function() {
 
     window.setTimeout(function() {
         $("html, body").css("overflow", "visible");
-    }, 4990); // 4900
+    }, 3490); // 4900
 
     window.setTimeout(function() {
         $main.css({
@@ -27,7 +27,7 @@ $(function() {
             $(this).scrollTop = 0;
             $main.css("display", "none");
         });
-    }, 5000); // 1000, 5000
+    }, 3500); // 1000, 5000
 
     // 스크롤
     $(window).on("scroll", function(event) {
