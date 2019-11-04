@@ -59,7 +59,7 @@ a { text-decoration: none; color: #fff; }
 
 
 /* main */
-#main { z-index: 7; position: relative; width: 100%; height: 100%; background-color: #496278; overflow: hidden; }
+#main { z-index: 7; position: relative; width: 100%; height: 100%; background-color: #001526; overflow: hidden; }
 
 #container {
     position: absolute;
@@ -344,9 +344,10 @@ a { text-decoration: none; color: #fff; }
 #collection > div:hover > h4:nth-of-type(3) { padding-left: 40px; }
 
 #collection > #masterpiece:hover > h3 { width: 300px; }
+#collection > #masterpiece { border-bottom: none; }
 
 /* footer */
-#footer { height: 57px; background-color: #496278; }
+#footer { height: 57px; background-color: #001526; }
 #footer::after { content: ""; display: block; clear: both; }
 #footer > ul > li { display: inline-block; line-height: 50px; }
 #footer > ul > li > a { font-size: 0.8rem; color: #fff; }
